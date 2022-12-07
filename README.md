@@ -7,7 +7,7 @@ Basic usage:
 import {
     randomInteger,
     randomString,
-} from '/path/to/random-js/index.js';
+} from 'random-js';
 
 const randomInt = randomInteger(0, 10);
 
