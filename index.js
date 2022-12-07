@@ -1,5 +1,3 @@
-import { isFunction } from '../is-js/index.js';
-
 const lowercase = 'abcdefghijklmnopqrstuvwxyz';
 const uppercase = lowercase.toUppercase();
 const numbers = '0123456789';
@@ -17,7 +15,7 @@ export function randomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-export function randomString(length, verify) {
+export function randomString(length) {
     if (!Number.isInteger(length)) {
         throw '`length` should be an integer';
     }
