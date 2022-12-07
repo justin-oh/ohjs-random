@@ -7,7 +7,7 @@ Basic usage:
 import {
     randomInteger,
     randomString,
-} from 'random-js';
+} from 'ohjs-random';
 
 const randomInt = randomInteger(0, 10);
 
