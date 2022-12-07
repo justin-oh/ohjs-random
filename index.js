@@ -1,5 +1,5 @@
 const lowercase = 'abcdefghijklmnopqrstuvwxyz';
-const uppercase = lowercase.toUppercase();
+const uppercase = lowercase.toUpperCase();
 const numbers = '0123456789';
 const characters = lowercase + uppercase + numbers;
 
